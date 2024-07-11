@@ -1,0 +1,89 @@
+.enDis {
+    background-color: rgba(92, 212, 212, 0.5);
+    width: 650px;
+    height: 600px;
+    margin-left: 430px;
+    margin-top: 100px;
+  }
+  
+  .baslik {
+    margin-left: 230px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .user-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button.primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  button.danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    margin-right: 10px;
+  }
+
+  #name{
+    margin-left: 40px;
+    width: 500px;
+    height: 50px;
+    border: none;
+  }
+
+  button.success{
+    background-color: white;
+    border: none;
+    height: 38px;
+    width: 38px;
+    margin-left: 10px;
+  }
+
+  button.success:hover{
+    z-index:4;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  button.primary:hover{
+    opacity: 0.8;
+  }
+
+  button.danger:hover{
+    opacity: 0.8;
+  }
+
+  #ogrenciArama{
+    margin-left: 40px;
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 0;
+  }

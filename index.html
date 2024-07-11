@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Öğrenci Ekleme</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+</head>
+<body>
+    
+<div class="enDis">
+  <h1 class="baslik">Öğrenci Sistemi</h1>
+    <div class="yukariBolge">
+    <form id="form">
+     <input type="text" autocomplete="off" placeholder="  Öğrenci Ekle.." id="name">
+     <button class="success">
+      <i class="fas fa-plus"></i>
+    </button>
+    </form>
+    <div class="user" id="nameList">
+    </div>
+
+
+</div>
+<div class="asagiBolge">
+  <form id="toDoListForm">
+    <input id="ogrenciArama" type="text" class="form-control mt-3" placeholder="Öğrenci Ara.." autocomplete="off">
+  </form>
+  <div class="user-item">
+    <p>
+      <i class="fas fa-user" id="insan" style="font-size: 20px; margin-left:15px ;"></i>
+      <span style="font-size: 20px; margin-left: 5px;">Öğrenci</span> 
+    </p>
+    <div class="buttons">
+      </button>
+      </button>
+    </div>
+  </div>
+  <ul class="list-group">
+    <!--
+                  <li class="list-group-item d-flex justify-content-between">Todo 1
+                      <a href="#" class="delete-item">
+                          <i class="fa fa-remove"></i>
+                      </a>
+                  </li>
+              -->
+  </ul>
+  <a href="#" id="clearButton" class="btn btn-primary btn-sm mt-3">Tüm Öğrencileri Temizle</a>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
